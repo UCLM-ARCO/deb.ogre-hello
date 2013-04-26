@@ -1,0 +1,12 @@
+--- ogre-hello-0.1.orig/makefile
++++ ogre-hello-0.1/makefile
+@@ -49,3 +49,9 @@ $(DIROBJ)%.o: $(DIRSRC)%.cpp
+ # Limpieza de temporales ---------------------------------------------
+ clean:
+ 	rm -f *.log $(EXEC) *~ $(DIROBJ)* $(DIRSRC)*~ $(DIRHEA)*~
++
++install: all
++	install -vd $(DESTDIR)/usr/bin/
++	install -v -m 444 helloWorld $(DESTDIR)/usr/bin/ogre-hello
++	install -vd $(DESTDIR)/usr/share/ogre-hello/
++	install -v -m 444 *.cfg $(DESTDIR)/usr/share/ogre-hello/

@@ -1,0 +1,12 @@
+Source: ogre-hello
+Section: games
+Priority: optional
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libogre-1.8-dev, libois-dev, libgl1-mesa-dev, quilt
+Standards-Version: 3.9.4
+
+Package: ogre-hello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libogre-1.8.0
+Description: A minimal packaged Ogre example
+  minimal Ogre example to demostrate debian packaging

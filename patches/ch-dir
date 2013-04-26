@@ -1,0 +1,18 @@
+--- ogre-hello-0.1.orig/src/main.cpp
++++ ogre-hello-0.1/src/main.cpp
+@@ -13,6 +13,7 @@
+  * General Public License for more details.
+  *********************************************************************/
+ 
++#include <unistd.h>
+ #include "ExampleApplication.h"
+ 
+ class SimpleExample : public ExampleApplication {
+@@ -23,6 +24,7 @@ class SimpleExample : public ExampleAppl
+ };
+ 
+ int main(void) {
++  chdir("/usr/share/ogre-hello");
+   SimpleExample example;
+   example.go();
+ 

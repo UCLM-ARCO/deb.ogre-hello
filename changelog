@@ -1,0 +1,5 @@
+ogre-hello (0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- David Villa Alises <David.Villa@gmail.com>  Wed, 24 Apr 2013 12:59:40 +0200
