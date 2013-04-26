@@ -1,21 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ogre-hello
-Source: <url://example.com>
+Source: http://www.ogre3d.org/tikiwiki/Sinbad+Model
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
-License: <special license>
- <Put the license of the package here indented by 1 space>
- <This follows the format of Description: lines in control file>
- .
- <Including paragraphs>
-
-# If you want to use GPL v2 or later for the /debian/* files use 
-# the following clauses, or change it to suit. Delete these two lines
-Files: debian/*
-Copyright: 2013 David Villa Alises <David.Villa@gmail.com>
-License: GPL-2+
+Copyright: 2013 ogre.developers@ogre.com
+License: GPL-2
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
@@ -32,7 +21,34 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
-# Please avoid to pick license terms that are more restrictive than the
-# packaged work, as it may make Debian's contributions unacceptable upstream.
+Files: media/*
+Copyright: 2009-2010  Zi Ye <omniter@gmail.com>
+License:
+ This work is licensed under the Creative Commons Attribution-Share
+ Alike 3.0 Unported License.  To view a copy of this license, visit
+ http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to
+ Creative Commons, 171 Second Street, Suite 300, San Francisco,
+ California, 94105, USA.
+ .
+ This character is a gift to the OGRE community
+ (http://www.ogre3d.org).  You do not need to give credit to the
+ artist, but it would be appreciated. =)
+
+Files: debian/*
+Copyright: 2013 Juan Nadie <Juan.Nadie@gmail.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

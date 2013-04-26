@@ -1,5 +1,15 @@
 ogre-hello (0.1-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #99999)  <99999 is the bug number of your ITP>
 
- -- David Villa Alises <David.Villa@gmail.com>  Wed, 24 Apr 2013 12:59:40 +0200
+ -- Juan Nadie <Juan.Nadie@gmail.com>  Wed, 24 Apr 2013 12:59:40 +0200
+
+Debian changelog exited abnormally with code 2 at Fri Apr 26 16:56:16
+
+e Debian changelog finished at Fri Apr 26 16:56:41
+
+Debian changelog finished at Fri Apr 26 16:58:05
+
+Debian changelog finished at Fri Apr 26 17:02:41
+
+Debian changelog finished at Fri Apr 26 17:03:29
