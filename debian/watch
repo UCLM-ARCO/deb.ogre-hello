@@ -1,0 +1,3 @@
+version=3
+
+http://bitbucket.org/arco_group/ogre-hello/downloads/ogre-hello-(.*)\.tar\.gz
